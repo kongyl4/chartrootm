@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7fa160f-fd43-4307-adf5-982fd5404e87" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Goland\go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1WBvJkoW1XQnV2B4gIoRDx57Sqj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="E:/learn/golang/代码/chatroom" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\gitworkspace\goPro\chartroom\exercise\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestRedisCase in server/main">
+    <configuration name="go build goPro/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/chartroom/client/main/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chartroom/server/main/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPro" />
+      <working_directory value="$PROJECT_DIR$/chartroom/client" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chartroom/client/main/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goPro" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chartroom/exercise/main/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRedisCase in server/main" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="goPro" />
+      <working_directory value="$PROJECT_DIR$/chartroom/server/main" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="server/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestRedisCase$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build goPro/" />
+      <item itemvalue="Go Build.go build main.go (2)" />
+      <item itemvalue="Go Test.TestRedisCase in server/main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestRedisCase in server/main" />
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build goPro/" />
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://mirrors.aliyun.com/goproxy/</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#GOPATH" timestamp="1579070263740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#GOPATH/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579070263739" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579506501639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579506501639" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1579418444951">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579418444951" />
+    <state width="1493" height="355" key="GridCell.Tab.0.bottom" timestamp="1579507011639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579507011639" />
+    <state width="1493" height="355" key="GridCell.Tab.0.center" timestamp="1579507011639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="355" key="GridCell.Tab.0.center/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579507011639" />
+    <state width="1493" height="355" key="GridCell.Tab.0.left" timestamp="1579507011638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="355" key="GridCell.Tab.0.left/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579507011638" />
+    <state width="1493" height="355" key="GridCell.Tab.0.right" timestamp="1579507011639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="355" key="GridCell.Tab.0.right/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579507011639" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1579504600750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579504600750" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1579501295978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.26.1920.1040@0.0.1536.824" timestamp="1579501295978" />
+  </component>
+</project>
