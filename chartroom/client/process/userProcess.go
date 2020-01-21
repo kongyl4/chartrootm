@@ -38,8 +38,8 @@ func (this *UserProcess) Login(username string,password string) (er error)  {
 		tf:=utils.Transfer{
 			Conn: conn,
 		}
+		fmt.Println("data=",string(data))
 		tf.WritePkg(data)
-
 		tf.ReadPkg()
 	}
 	return er

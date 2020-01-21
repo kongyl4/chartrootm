@@ -35,12 +35,16 @@ func main() {
 	}
 	fmt.Println("start listening")
 	for{
-		_,error := ln.Accept()
+		conn,error := ln.Accept()
 		if error != nil{
 			println("连接错误")
 			return
 		}else {
-
+			process:=&Processor{
+				Conn: conn,
+				Buf:  [8096]byte{},
+			}
+			process.ProcessHandle()
 			//println(conn.RemoteAddr())
 			//go process(conn)
 		}

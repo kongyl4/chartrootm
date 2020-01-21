@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/common/message"
 	"github.com/utils"
 	"net"
@@ -12,16 +13,18 @@ type Processor struct {
 	Buf [8096]byte
 }
 
-func (this *Processor)processor()  {
+func (this *Processor)ProcessHandle()  {
 	tf := &utils.Transfer{
 		Conn: this.Conn,
 	}
 	mes,err:=tf.ReadPkg()
+	fmt.Println("mes.type=",mes.Type)
+	fmt.Println(message.LoginResMesType)
 	if err!=nil{
-		println("read login mes failed")
+		println("read login mes failed",err)
 		return
 	}else {
-		switch mes.Data {
+		switch mes.Type {
 		case message.LoginMesType:
 			up:=&process.UserProcess{
 				Conn: this.Conn,
@@ -31,8 +34,6 @@ func (this *Processor)processor()  {
 			return
 		default:
 			println("no mestype,byebye")
-
 		}
 	}
-
 }

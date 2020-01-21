@@ -19,10 +19,14 @@ func main() {
 		fmt.Scanf("%d\n",&key)
 		switch key{
 		case 1:
+			var username string
+			var password string
 			println("please enter the username")
-			username,_:=bufio.NewReader(os.Stdin).ReadString('\n')
+			fmt.Scanf("%v",&username)
+			//username,_=bufio.NewReader(os.Stdin).ReadString('\n')
 			println("please enter the password")
-			password,_:=bufio.NewReader(os.Stdin).ReadString('\n')
+			fmt.Scanf("%v",&password)
+			//password,_=bufio.NewReader(os.Stdin).ReadString('\n')
 			up:=&process.UserProcess{}
 			up.Login(username,password)
 			loop = false
